@@ -5,4 +5,4 @@ The **Telegram to MT5 Signal Trader** copies text-based signals from **Telegram*
 
 > **Note:** Signal Trader is currently available for **Windows** only.
 
-[Download the latest Telegram Signal Trader Installer](https://github.com/LukiRoth/Signal-Trader-Release/releases/download/v0.1.0-beta/Telegram.Signal.Trader_0.1.0_x64_en-US.msi)
+[Download the latest Telegram Signal Trader Installer](https://github.com/LukiRoth/Signal-Trader-Release/releases/download/v0.2.0-beta/Telegram.Signal.Trader_0.2.0_x64_en-US.msi)
