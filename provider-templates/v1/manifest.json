@@ -1,5 +1,5 @@
 {
-  "catalog_version": 4,
+  "catalog_version": 5,
   "schema_version": 1,
   "templates": [
     {
@@ -11,7 +11,17 @@
       "scope": "signal_parsing",
       "sha256": "8e00053e6501c8c27fc34f089631ddd17ac64193ae7d27644c0bebab93968354",
       "version": 2
+    },
+    {
+      "example_message": "xauusd buy now 4465\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
+      "file": "templates/gold-fx-empire-23.json",
+      "id": "gold-fx-empire-23",
+      "min_app_version": "0.8.6",
+      "name": "𝐆𝐎𝐋𝐃 𝐅𝐗 𝐄𝐌𝐏𝐈𝐑𝐄 ⚡️ 23",
+      "scope": "signal_parsing",
+      "sha256": "79e76eeb3ad03d607ad0b89363613279711fef71a2d25e841e602fc8860a2723",
+      "version": 1
     }
   ],
-  "updated_at": "2026-04-13T12:29:36Z"
+  "updated_at": "2026-04-13T12:35:14Z"
 }
