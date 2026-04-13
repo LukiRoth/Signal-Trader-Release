@@ -35,7 +35,7 @@
       "version": 1
     },
     {
-      "example_message": "signal scalp #9\n🗓 26th, feb 2026\n🔴 sell xauusd 5172 - 5174\n⚠️ sl: 5180\n💰 tp1: 5167 (50 - 70 pips)\n💰 tp2: 5162 (100 - 120 pips)\n💰 tp3: 5152 (200 - 220 pips)\n💰 tp4: 5132 (400 - 420 pips)\nanalysis corner\n🔺the 5172 - 5174 zone is currently acting as a newly formed support area after price broke the short-term bearish structure and created a higher high.\n🔺this is the first pullback zone since the breakout, while also aligning closely with the ema34 on the m15 timeframe. if price retraces and holds above this area, there is a high probability that a new higher low will form, confirming the continuation of the short-term uptrend.\nnote: entry can be placed around 5172.xx for a better entry point",
+      "example_message": "signal scalp #9\n🗓 26th, feb 2026\n\n🔴 sell xauusd 5172 - 5174\n⚠️ sl: 5180\n💰 tp1: 5167 (50 - 70 pips)\n💰 tp2: 5162 (100 - 120 pips)\n💰 tp3: 5152 (200 - 220 pips)\n💰 tp4: 5132 (400 - 420 pips)\n\nanalysis corner\n🔺the 5172 - 5174 zone is currently acting as a newly formed support area after price broke the short-term bearish structure and created a higher high.\n🔺this is the first pullback zone since the breakout, while also aligning closely with the ema34 on the m15 timeframe. if price retraces and holds above this area, there is a high probability that a new higher low will form, confirming the continuation of the short-term uptrend.\nnote: entry can be placed around 5172.xx for a better entry point",
       "file": "templates/leos_premium_channel.json",
       "id": "leos_premium_channel",
       "min_app_version": "0.8.6",
