@@ -1,5 +1,5 @@
 {
-  "catalog_version": 6,
+  "catalog_version": 12,
   "schema_version": 1,
   "templates": [
     {
@@ -13,6 +13,50 @@
       "version": 1
     },
     {
+      "example_message": "None",
+      "file": "templates/gtmo_vip.json",
+      "id": "gtmo_vip",
+      "min_app_version": "0.8.6",
+      "name": "GTMO VIP 🤴🏽",
+      "provider_chat_id": -1001640332422,
+      "scope": "signal_parsing",
+      "sha256": "efe83612565f224c2c97740d6dacaf9bcb6e51c0a29bffb6a793595e16ace55d",
+      "version": 1
+    },
+    {
+      "example_message": "None",
+      "file": "templates/gtmofx_-goldtradermo.json",
+      "id": "gtmofx_-goldtradermo",
+      "min_app_version": "0.8.6",
+      "name": "GTMoFx🤴🏽(goldtradermo)",
+      "provider_chat_id": -1002495224665,
+      "scope": "signal_parsing",
+      "sha256": "90fc07e1c9c0b0c2cb96023e789e4e1b82b655ace311a05dabd54a4aa81bb742",
+      "version": 1
+    },
+    {
+      "example_message": "None",
+      "file": "templates/leos_premium_channel.json",
+      "id": "leos_premium_channel",
+      "min_app_version": "0.8.6",
+      "name": "LEO's PREMIUM CHANNEL",
+      "provider_chat_id": -1003399934871,
+      "scope": "signal_parsing",
+      "sha256": "438b452dbfd40a913886f124a8464c7cad583888903ef58e431ff1d309fa0292",
+      "version": 1
+    },
+    {
+      "example_message": "None",
+      "file": "templates/trading_coach.json",
+      "id": "trading_coach",
+      "min_app_version": "0.8.6",
+      "name": "Trading Coach",
+      "provider_chat_id": -1001401790948,
+      "scope": "signal_parsing",
+      "sha256": "ed7ccb35ac49d265b76f392b0d4ca27baf11eb3e2455b6aadb883433b0a91163",
+      "version": 2
+    },
+    {
       "example_message": "xauusd sell now 4465\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
       "file": "templates/gold-fx-empire.json",
       "id": "gold-fx-empire",
@@ -21,6 +65,17 @@
       "scope": "signal_parsing",
       "sha256": "8e00053e6501c8c27fc34f089631ddd17ac64193ae7d27644c0bebab93968354",
       "version": 2
+    },
+    {
+      "example_message": "None",
+      "file": "templates/gold_fx_empire.json",
+      "id": "gold_fx_empire",
+      "min_app_version": "0.8.6",
+      "name": "𝐆𝐎𝐋𝐃 𝐅𝐗 𝐄𝐌𝐏𝐈𝐑𝐄 ⚡️",
+      "provider_chat_id": -1001442906112,
+      "scope": "signal_parsing",
+      "sha256": "5952fd354ac82f58f4b5ee9ec9f42eb1e7dc9f74090caaceb56e3c44c172942a",
+      "version": 1
     },
     {
       "example_message": "xauusd buy now 4465\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
@@ -33,5 +88,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-13T13:08:49Z"
+  "updated_at": "2026-04-13T20:38:24Z"
 }

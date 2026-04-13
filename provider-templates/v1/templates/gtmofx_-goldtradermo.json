@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "scope": "signal_parsing",
+  "settings": {
+    "allow_modification_signals_without_reply": true,
+    "copy_break_even": true,
+    "copy_closing_orders": true,
+    "copy_deleting_orders": true,
+    "copy_long_trades": true,
+    "copy_market_orders": true,
+    "copy_modify_orders": true,
+    "copy_new_trade": true,
+    "copy_partial_closes": true,
+    "copy_pending_activations": false,
+    "copy_pending_orders": true,
+    "copy_reopen_orders": true,
+    "copy_short_trades": true,
+    "decimal_separator": ".",
+    "entry_change_text": [],
+    "entry_names": [],
+    "entry_range_short_format_enabled": false,
+    "entry_text": [],
+    "open_price_names": [
+      "open"
+    ],
+    "order_buy_limit_text": [],
+    "order_buy_stop_text": [],
+    "order_buy_text": [
+      "buy"
+    ],
+    "order_sell_limit_text": [],
+    "order_sell_stop_text": [],
+    "order_sell_text": [
+      "sell"
+    ],
+    "risk_lot_by_signal_text": [
+      "lots: <lot>",
+      "<lot> lots"
+    ],
+    "signal_cancel_order_text": [],
+    "signal_close_all_include_pending": true,
+    "signal_close_all_text": [
+      "closed all",
+      "all entries closed",
+      "close all"
+    ],
+    "signal_close_trade_text": [
+      "sl hit",
+      "breakeven hit"
+    ],
+    "signal_do_not_include_enable": true,
+    "signal_do_not_include_mode": "any",
+    "signal_do_not_include_text": [
+      "today profit!"
+    ],
+    "signal_modify_order_text": [],
+    "signal_must_include_enable": false,
+    "signal_must_include_mode": "any",
+    "signal_must_include_text": [],
+    "signal_new_trade_text": [
+      "<symbol> <type> now <price> - <price>"
+    ],
+    "signal_order_activate_text": [],
+    "signal_partial_close_half_text": [],
+    "signal_partial_close_text": [
+      "take more profits",
+      "i closed some more",
+      "close your top entries",
+      "close first entries now",
+      "close one more entry",
+      "close most profits",
+      "take some profits"
+    ],
+    "signal_reopen_trade_text": [],
+    "sl_change_text": [
+      "move sl to <price>",
+      "set sl to <price>"
+    ],
+    "sl_delete_text": [],
+    "sl_move_to_be_text": [
+      "risk free",
+      "zero risk",
+      "set breakeven",
+      "risk-free"
+    ],
+    "sl_names": [],
+    "sl_none_ignore_signal": true,
+    "sl_text": [
+      "sl : <price>"
+    ],
+    "thousand_separators": [
+      ","
+    ],
+    "tp_change_text": [
+      "move tp to <price>"
+    ],
+    "tp_delete_text": [],
+    "tp_names": [],
+    "tp_none_ignore_signal": true,
+    "tp_text": [
+      "tp : <price>"
+    ]
+  }
+}

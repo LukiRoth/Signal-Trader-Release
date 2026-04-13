@@ -16,113 +16,80 @@
     "copy_reopen_orders": true,
     "copy_short_trades": true,
     "decimal_separator": ".",
-    "entry_change_text": [
-      "move entry to <price>"
-    ],
-    "entry_names": [
-      "entry"
-    ],
+    "entry_change_text": [],
+    "entry_names": [],
     "entry_range_short_format_enabled": false,
-    "entry_text": [
-      "<symbol> <type> now <price>",
-      "<symbol> <type> now <price>/<price>"
-    ],
-    "open_price_names": [
-      "open"
-    ],
-    "order_buy_limit_text": [
-      "buy limit"
-    ],
-    "order_buy_stop_text": [
-      "buy stop"
-    ],
+    "entry_text": [],
+    "open_price_names": [],
+    "order_buy_limit_text": [],
+    "order_buy_stop_text": [],
     "order_buy_text": [
       "buy"
     ],
-    "order_sell_limit_text": [
-      "sell limit"
-    ],
-    "order_sell_stop_text": [
-      "sell stop"
-    ],
+    "order_sell_limit_text": [],
+    "order_sell_stop_text": [],
     "order_sell_text": [
       "sell"
     ],
     "risk_lot_by_signal_text": [
-      "<lot> lots",
-      "lots: <lot>"
+      "lots: <lot>",
+      "<lot> lots"
     ],
     "signal_cancel_order_text": [
-      "cancel order"
+      "close all pending orders",
+      "close all unrun signals"
     ],
     "signal_close_all_include_pending": true,
     "signal_close_all_text": [
       "close all"
     ],
     "signal_close_trade_text": [
-      "hit stop loss",
-      "sl hit",
+      "close your profits",
       "close",
-      "close now"
+      "close all"
     ],
     "signal_do_not_include_enable": true,
     "signal_do_not_include_mode": "any",
     "signal_do_not_include_text": [
-      "todays news",
-      "report"
+      "trade update"
     ],
     "signal_modify_order_text": [],
     "signal_must_include_enable": false,
     "signal_must_include_mode": "any",
-    "signal_must_include_text": [
-      "vip signal"
-    ],
+    "signal_must_include_text": [],
     "signal_new_trade_text": [
-      "<symbol> <type> now <price>",
-      "<symbol> <type> now <price>/<price>"
+      "<type> <symbol> <price> - <price>"
     ],
-    "signal_order_activate_text": [
-      "activate now"
-    ],
-    "signal_partial_close_half_text": [
-      "close half"
-    ],
+    "signal_order_activate_text": [],
+    "signal_partial_close_half_text": [],
     "signal_partial_close_text": [
-      "book solid profits"
+      "clear off bad entries"
     ],
     "signal_reopen_trade_text": [
-      "re-enter trade"
+      "buy now round 2",
+      "sell now round 2"
     ],
     "sl_change_text": [
-      "move <sl> to <price>"
+      "move sl to <price>",
+      "move sl <price>"
     ],
-    "sl_delete_text": [
-      "remove <sl>"
-    ],
+    "sl_delete_text": [],
     "sl_move_to_be_text": [
-      "move sl to entry (risk-free)",
+      "move sl to entries",
       "move sl to entry"
     ],
-    "sl_names": [
-      "sl"
-    ],
+    "sl_names": [],
+    "sl_none_ignore_signal": true,
     "sl_text": [
-      "sl <price>"
+      "sl: <price>"
     ],
-    "thousand_separators": [
-      "'"
-    ],
-    "tp_change_text": [
-      "move <tp> to <price>"
-    ],
-    "tp_delete_text": [
-      "remove <tp> <tp_index>"
-    ],
-    "tp_names": [
-      "tp"
-    ],
+    "thousand_separators": [],
+    "tp_change_text": [],
+    "tp_delete_text": [],
+    "tp_names": [],
+    "tp_none_ignore_signal": true,
     "tp_text": [
-      "tp <tp_index> <price>"
+      "tp<tp_index>: <price>"
     ]
   }
 }
