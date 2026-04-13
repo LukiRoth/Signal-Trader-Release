@@ -1,7 +1,17 @@
 {
-  "catalog_version": 5,
+  "catalog_version": 6,
   "schema_version": 1,
   "templates": [
+    {
+      "example_message": "None",
+      "file": "templates/default-template.json",
+      "id": "default-template",
+      "min_app_version": "0.8.6",
+      "name": "Default Template",
+      "scope": "signal_parsing",
+      "sha256": "cc656dc35ea12a913d14b6ec809830b81d8b47c3f2ff89094e00dcf4f128b22a",
+      "version": 1
+    },
     {
       "example_message": "xauusd sell now 4465\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
       "file": "templates/gold-fx-empire.json",
@@ -23,5 +33,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-13T12:35:14Z"
+  "updated_at": "2026-04-13T13:08:49Z"
 }
