@@ -13,7 +13,7 @@
       "version": 1
     },
     {
-      "example_message": "None",
+      "example_message": "Gold buy now 2645.6 - 2642.6\n\nSL: 2639\n\nTP: 2647.5\nTP: 2649\nTP: 2651\nTP: open",
       "file": "templates/gtmo_vip.json",
       "id": "gtmo_vip",
       "min_app_version": "0.8.6",
@@ -24,7 +24,7 @@
       "version": 1
     },
     {
-      "example_message": "None",
+      "example_message": "Gold sell now 4720 - 4723\n\nSL: 4727\n\nTP: 4718\nTP: 4716\nTP: 4714\nTP: open",
       "file": "templates/gtmofx_-goldtradermo.json",
       "id": "gtmofx_-goldtradermo",
       "min_app_version": "0.8.6",
@@ -35,7 +35,7 @@
       "version": 1
     },
     {
-      "example_message": "None",
+      "example_message": "signal scalp #9\n🗓 26th, feb 2026\n🔴 sell xauusd 5172 - 5174\n⚠️ sl: 5180\n💰 tp1: 5167 (50 - 70 pips)\n💰 tp2: 5162 (100 - 120 pips)\n💰 tp3: 5152 (200 - 220 pips)\n💰 tp4: 5132 (400 - 420 pips)\nanalysis corner\n🔺the 5172 - 5174 zone is currently acting as a newly formed support area after price broke the short-term bearish structure and created a higher high.\n🔺this is the first pullback zone since the breakout, while also aligning closely with the ema34 on the m15 timeframe. if price retraces and holds above this area, there is a high probability that a new higher low will form, confirming the continuation of the short-term uptrend.\nnote: entry can be placed around 5172.xx for a better entry point",
       "file": "templates/leos_premium_channel.json",
       "id": "leos_premium_channel",
       "min_app_version": "0.8.6",
@@ -46,7 +46,7 @@
       "version": 1
     },
     {
-      "example_message": "None",
+      "example_message": "🚦live trend🚦\nich verkaufe gold (ek: 4527.88)\nhier traden: ...\nich wähle den maximalen multiplikator i️",
       "file": "templates/trading_coach.json",
       "id": "trading_coach",
       "min_app_version": "0.8.6",
@@ -57,17 +57,7 @@
       "version": 2
     },
     {
-      "example_message": "xauusd sell now 4465\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
-      "file": "templates/gold-fx-empire.json",
-      "id": "gold-fx-empire",
-      "min_app_version": "0.8.6",
-      "name": "𝐆𝐎𝐋𝐃 𝐅𝐗 𝐄𝐌𝐏𝐈𝐑𝐄 ⚡️",
-      "scope": "signal_parsing",
-      "sha256": "8e00053e6501c8c27fc34f089631ddd17ac64193ae7d27644c0bebab93968354",
-      "version": 2
-    },
-    {
-      "example_message": "None",
+      "example_message": "xauusd sell now 4465\n\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
       "file": "templates/gold_fx_empire.json",
       "id": "gold_fx_empire",
       "min_app_version": "0.8.6",
@@ -76,17 +66,7 @@
       "scope": "signal_parsing",
       "sha256": "5952fd354ac82f58f4b5ee9ec9f42eb1e7dc9f74090caaceb56e3c44c172942a",
       "version": 1
-    },
-    {
-      "example_message": "xauusd buy now 4465\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
-      "file": "templates/gold-fx-empire-23.json",
-      "id": "gold-fx-empire-23",
-      "min_app_version": "0.8.6",
-      "name": "𝐆𝐎𝐋𝐃 𝐅𝐗 𝐄𝐌𝐏𝐈𝐑𝐄 ⚡️ 23",
-      "scope": "signal_parsing",
-      "sha256": "79e76eeb3ad03d607ad0b89363613279711fef71a2d25e841e602fc8860a2723",
-      "version": 1
     }
   ],
-  "updated_at": "2026-04-13T20:38:24Z"
+  "updated_at": "2026-04-13T20:49:56Z"
 }
