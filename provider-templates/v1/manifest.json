@@ -1,5 +1,5 @@
 {
-  "catalog_version": 12,
+  "catalog_version": 13,
   "schema_version": 1,
   "templates": [
     {
@@ -32,6 +32,17 @@
       "provider_chat_id": -1002495224665,
       "scope": "signal_parsing",
       "sha256": "90fc07e1c9c0b0c2cb96023e789e4e1b82b655ace311a05dabd54a4aa81bb742",
+      "version": 1
+    },
+    {
+      "example_message": "GOLD BUY 4707\n\n🔷TP1 - 4710\n🔷TP2 - 4713\n🔷TP3 - 4717\n\n🔶SL - 4697",
+      "file": "templates/investment_vip_3_0.json",
+      "id": "investment_vip_3_0",
+      "min_app_version": "0.8.6",
+      "name": "INVESTMENT VIP 3.0",
+      "provider_chat_id": -1003497302310,
+      "scope": "signal_parsing",
+      "sha256": "79fa9ca9490ba7fc8ff65a414f3abe306d94d892a387a2c85850a1ccdf60a819",
       "version": 1
     },
     {
@@ -68,5 +79,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-13T20:49:56Z"
+  "updated_at": "2026-04-14T11:10:01Z"
 }
