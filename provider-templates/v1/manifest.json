@@ -1,5 +1,5 @@
 {
-  "catalog_version": 15,
+  "catalog_version": 16,
   "schema_version": 1,
   "templates": [
     {
@@ -79,6 +79,17 @@
       "version": 2
     },
     {
+      "example_message": "⬆️ XAUUSD 📍 4744.66\n⚖️ 0.43 ❌ 4721.34\n\n✅ TP1 4756.32 🔒\n✅ TP2 4767.98\n✅ TP3 4779.64\n✅ TP4 4791.30\n\n📳 Powered by Plugin!",
+      "file": "templates/plugin-elite_market_signals.json",
+      "id": "plugin-elite_market_signals",
+      "min_app_version": "0.8.9",
+      "name": "plugin! - elite market signals",
+      "provider_chat_id": -1002152597407,
+      "scope": "signal_parsing",
+      "sha256": "938593045ca260127fab4d638f068aeee9204d5b82fde1c60efccabeea5bf94d",
+      "version": 1
+    },
+    {
       "example_message": "xauusd sell now 4465\n\ntp1 4462\ntp2 4459\ntp3 4456\ntp4 4452\ntp5 4448\ntp6 4440\nsl 4475",
       "file": "templates/gold_fx_empire.json",
       "id": "gold_fx_empire",
@@ -101,5 +112,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-20T09:59:33Z"
+  "updated_at": "2026-04-20T10:19:39Z"
 }
