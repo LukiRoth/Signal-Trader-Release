@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "scope": "signal_parsing",
+  "settings": {
+    "allow_modification_signals_without_reply": false,
+    "copy_break_even": false,
+    "copy_closing_orders": true,
+    "copy_deleting_orders": false,
+    "copy_long_trades": true,
+    "copy_market_orders": true,
+    "copy_modify_orders": false,
+    "copy_new_trade": true,
+    "copy_partial_closes": false,
+    "copy_pending_activations": false,
+    "copy_pending_orders": false,
+    "copy_reopen_orders": false,
+    "copy_short_trades": true,
+    "decimal_separator": ".",
+    "default_symbol": null,
+    "entry_change_text": [],
+    "entry_names": [],
+    "entry_range_short_format_enabled": false,
+    "entry_text": [
+      "entry: <price>"
+    ],
+    "open_price_names": [],
+    "order_buy_limit_text": [],
+    "order_buy_stop_text": [],
+    "order_buy_text": [
+      "buy 📈",
+      "buy"
+    ],
+    "order_sell_limit_text": [],
+    "order_sell_stop_text": [],
+    "order_sell_text": [
+      "sell",
+      "sell 📉"
+    ],
+    "risk_lot_by_signal_text": [
+      "<lot> lots",
+      "lots: <lot>"
+    ],
+    "signal_cancel_order_text": [],
+    "signal_close_all_include_pending": true,
+    "signal_close_all_text": [],
+    "signal_close_trade_text": [
+      "closed",
+      "closed - <symbol>"
+    ],
+    "signal_do_not_include_enable": true,
+    "signal_do_not_include_mode": "any",
+    "signal_do_not_include_text": [
+      "report"
+    ],
+    "signal_modify_order_text": [],
+    "signal_must_include_enable": false,
+    "signal_must_include_mode": "any",
+    "signal_must_include_text": [],
+    "signal_new_trade_text": [
+      "new order - <symbol> <type>",
+      "----------{ new }----------"
+    ],
+    "signal_order_activate_text": [],
+    "signal_partial_close_half_text": [],
+    "signal_partial_close_text": [],
+    "signal_reopen_trade_text": [],
+    "sl_change_text": [],
+    "sl_delete_text": [],
+    "sl_move_to_be_text": [],
+    "sl_names": [],
+    "sl_none_ignore_signal": false,
+    "sl_text": [],
+    "thousand_separators": [],
+    "tp_change_text": [],
+    "tp_delete_text": [],
+    "tp_names": [],
+    "tp_none_ignore_signal": false,
+    "tp_text": []
+  }
+}

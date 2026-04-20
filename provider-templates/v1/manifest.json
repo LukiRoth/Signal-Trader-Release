@@ -1,5 +1,5 @@
 {
-  "catalog_version": 19,
+  "catalog_version": 22,
   "schema_version": 1,
   "templates": [
     {
@@ -32,6 +32,17 @@
       "provider_chat_id": -1002362699747,
       "scope": "signal_parsing",
       "sha256": "279ae882b7bd91cef4389e7aec63251dd7c9e595d1210463f679cd9be467f874",
+      "version": 1
+    },
+    {
+      "example_message": "SELL XAU/USD BELOW :- 4770\n\n\nTARGET : 4765/4760\n\n\nSTOPLOSS : 4774",
+      "file": "templates/forex_academy_premium_learning.json",
+      "id": "forex_academy_premium_learning",
+      "min_app_version": "0.8.9",
+      "name": "FOREX ACADEMY PREMIUM LEARNING",
+      "provider_chat_id": -1002498334241,
+      "scope": "signal_parsing",
+      "sha256": "4474d6a079df07c0db7d4449cf976df7b424b6eeffc5f3b67e4df626e4d76c28",
       "version": 1
     },
     {
@@ -79,6 +90,17 @@
       "version": 1
     },
     {
+      "example_message": "NEW ORDER - EURUSD Sell 📉\n# 70885951\n\n----------{ NEW }----------\nEntry: 1.16979 [Lots: 0.01]\nNo SL\nNo TP\n---------------------------",
+      "file": "templates/mtd_forex_commodities_stock_market.json",
+      "id": "mtd_forex_commodities_stock_market",
+      "min_app_version": "0.8.9",
+      "name": "MTD® | Forex, Commodities & Stock Market",
+      "provider_chat_id": -1002107993371,
+      "scope": "signal_parsing",
+      "sha256": "f584e323b2a6f223fddc314b62af6cc354fe61b692356dfd95546b0237a5c88e",
+      "version": 1
+    },
+    {
       "example_message": "BUY GOLD @ 4704/4701\n\nTP 4706\nTP 4709\nTP 4713\nTP OPEN\nSL 4700",
       "file": "templates/pro_trader.json",
       "id": "pro_trader",
@@ -123,6 +145,17 @@
       "version": 1
     },
     {
+      "example_message": "NAS BUY 25470 - 25510\nSL.  25420\nTP.  25580\nTP.  25700\n\nNAS100 TradingView(pepperstone)",
+      "file": "templates/indices_us100_us30.json",
+      "id": "indices_us100_us30",
+      "min_app_version": "0.8.9",
+      "name": "📊 INDICES (US100 & US30)",
+      "provider_chat_id": -1003501937701,
+      "scope": "signal_parsing",
+      "sha256": "45cad7b6c81cbdc6b40f0ee9dfa60422b08d954192e5fe88320f2f46f9ccf55f",
+      "version": 1
+    },
+    {
       "example_message": "⬆️ XAUUSD 📍 4775.43\n⚖️ 0.77  ❌ 4762.57\n\n✅ TP1 4778.65\n✅ TP2 4788.29\n\n📳 Powered by Plugin!",
       "file": "templates/golden_fox-vip_signals.json",
       "id": "golden_fox-vip_signals",
@@ -134,5 +167,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-20T14:53:35Z"
+  "updated_at": "2026-04-20T20:27:02Z"
 }
