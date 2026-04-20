@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "scope": "signal_parsing",
+  "settings": {
+    "allow_modification_signals_without_reply": false,
+    "copy_break_even": true,
+    "copy_closing_orders": true,
+    "copy_deleting_orders": true,
+    "copy_long_trades": true,
+    "copy_market_orders": true,
+    "copy_modify_orders": true,
+    "copy_new_trade": true,
+    "copy_partial_closes": true,
+    "copy_pending_activations": false,
+    "copy_pending_orders": true,
+    "copy_reopen_orders": true,
+    "copy_short_trades": true,
+    "decimal_separator": ".",
+    "default_symbol": "xauusd",
+    "entry_change_text": [],
+    "entry_names": [
+      "entry"
+    ],
+    "entry_range_short_format_enabled": false,
+    "entry_text": [],
+    "open_price_names": [
+      "open"
+    ],
+    "order_buy_limit_text": [
+      "buy limits",
+      "buy limit"
+    ],
+    "order_buy_stop_text": [
+      "buy stops",
+      "buy stop"
+    ],
+    "order_buy_text": [
+      "buy"
+    ],
+    "order_sell_limit_text": [
+      "sell limits",
+      "sell limit"
+    ],
+    "order_sell_stop_text": [
+      "sell stop",
+      "sell stops"
+    ],
+    "order_sell_text": [
+      "sell"
+    ],
+    "risk_lot_by_signal_text": [],
+    "signal_cancel_order_text": [
+      "cancel",
+      "invalid",
+      "cancel this trade"
+    ],
+    "signal_close_all_include_pending": true,
+    "signal_close_all_text": [],
+    "signal_close_trade_text": [
+      "out at entry on the rest of my position",
+      "now closed the trade",
+      "secure all profit",
+      "out at entry"
+    ],
+    "signal_do_not_include_enable": true,
+    "signal_do_not_include_mode": "any",
+    "signal_do_not_include_text": [
+      "perfect sniper entry",
+      "trade recap",
+      "training",
+      "trading recap",
+      "price hung around"
+    ],
+    "signal_modify_order_text": [],
+    "signal_must_include_enable": false,
+    "signal_must_include_mode": "any",
+    "signal_must_include_text": [],
+    "signal_new_trade_text": [
+      "<type> <symbol> <price>",
+      "<type> <symbol> @ <price>/<price>",
+      "<symbol> <type> <price>-<price>",
+      "<type> <symbol> <price>-<price>",
+      "<type> <price>"
+    ],
+    "signal_order_activate_text": [],
+    "signal_partial_close_half_text": [],
+    "signal_partial_close_text": [
+      "7 0% closed",
+      "90% closed",
+      "im securing partial profits",
+      "50 % closed",
+      "70% secure"
+    ],
+    "signal_reopen_trade_text": [],
+    "sl_change_text": [
+      "sl is set to be at <price>"
+    ],
+    "sl_delete_text": [],
+    "sl_move_to_be_text": [
+      "put be",
+      "im risk free",
+      "<sl> is set to be",
+      "risk free"
+    ],
+    "sl_names": [
+      "sl"
+    ],
+    "sl_none_ignore_signal": true,
+    "sl_text": [
+      "<sl> <price>"
+    ],
+    "thousand_separators": [],
+    "tp_change_text": [],
+    "tp_delete_text": [],
+    "tp_names": [
+      "tp"
+    ],
+    "tp_none_ignore_signal": true,
+    "tp_text": [
+      "<tp> <price>",
+      "<tp> <price> <price> <price> <price> <price>",
+      "<tp> <price> <price> <price> <price>",
+      "<tp> <price> <price> <price>"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "catalog_version": 16,
+  "catalog_version": 19,
   "schema_version": 1,
   "templates": [
     {
@@ -10,6 +10,17 @@
       "name": "Default Template",
       "scope": "signal_parsing",
       "sha256": "cc656dc35ea12a913d14b6ec809830b81d8b47c3f2ff89094e00dcf4f128b22a",
+      "version": 1
+    },
+    {
+      "example_message": "⚡ NUEVA SEÑAL\n━━━━━━━━━━━━━━━━━━\n📊 EURCHF | 1M\n\n🔴 VENTA\n\n📍 Entrada: 0.92142\n🛡️ Stop Loss: 0.92161\n\n🎯 TP1: 0.92133\n🎯 TP2: 0.92124\n🎯 TP3: 0.92105\n━━━━━━━━━━━━━━━━━━\n⚡ FB AI SCANNER",
+      "file": "templates/fb_ai_scanner_m1.json",
+      "id": "fb_ai_scanner_m1",
+      "min_app_version": "0.8.9",
+      "name": "FB AI SCANNER M1",
+      "provider_chat_id": -5031662594,
+      "scope": "signal_parsing",
+      "sha256": "876e01eed5bfdd7e494d846b2673aaa7817f84133953db20daefba0f51480245",
       "version": 1
     },
     {
@@ -68,6 +79,17 @@
       "version": 1
     },
     {
+      "example_message": "BUY GOLD @ 4704/4701\n\nTP 4706\nTP 4709\nTP 4713\nTP OPEN\nSL 4700",
+      "file": "templates/pro_trader.json",
+      "id": "pro_trader",
+      "min_app_version": "0.8.9",
+      "name": "Pro Trader",
+      "provider_chat_id": -1003354980634,
+      "scope": "signal_parsing",
+      "sha256": "3aa806f3d228525f4c3cf27565b6cee192d14ad094f0c1db252df360090df671",
+      "version": 2
+    },
+    {
       "example_message": "🚦live trend🚦\nich verkaufe gold (ek: 4527.88)\nhier traden: ...\nich wähle den maximalen multiplikator i️",
       "file": "templates/trading_coach.json",
       "id": "trading_coach",
@@ -112,5 +134,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-20T10:19:39Z"
+  "updated_at": "2026-04-20T14:53:35Z"
 }
