@@ -1,5 +1,5 @@
 {
-  "catalog_version": 13,
+  "catalog_version": 15,
   "schema_version": 1,
   "templates": [
     {
@@ -10,6 +10,17 @@
       "name": "Default Template",
       "scope": "signal_parsing",
       "sha256": "cc656dc35ea12a913d14b6ec809830b81d8b47c3f2ff89094e00dcf4f128b22a",
+      "version": 1
+    },
+    {
+      "example_message": "🥇 📈 📊 XAUUSD 📈 (BUY)\n\n🎯 Entrada: 4761.2\n❌ SL: 4728.58 (-326.2 pips)\n\n🏆 TP1: 4777.51 (+163.1 pips)\n🏆 TP2: 4793.82 (+326.2 pips)\n🏆 TP3: 4826.43 (+652.3 pips)\n\n📋 FB | AI SCANNER 15M",
+      "file": "templates/fb_ideas_trading_premium.json",
+      "id": "fb_ideas_trading_premium",
+      "min_app_version": "0.8.9",
+      "name": "FB | Ideas Trading Premium",
+      "provider_chat_id": -1002362699747,
+      "scope": "signal_parsing",
+      "sha256": "279ae882b7bd91cef4389e7aec63251dd7c9e595d1210463f679cd9be467f874",
       "version": 1
     },
     {
@@ -77,7 +88,18 @@
       "scope": "signal_parsing",
       "sha256": "5952fd354ac82f58f4b5ee9ec9f42eb1e7dc9f74090caaceb56e3c44c172942a",
       "version": 1
+    },
+    {
+      "example_message": "⬆️ XAUUSD 📍 4775.43\n⚖️ 0.77  ❌ 4762.57\n\n✅ TP1 4778.65\n✅ TP2 4788.29\n\n📳 Powered by Plugin!",
+      "file": "templates/golden_fox-vip_signals.json",
+      "id": "golden_fox-vip_signals",
+      "min_app_version": "0.8.9",
+      "name": "🦊 Golden Fox - VIP Signals",
+      "provider_chat_id": -1003752363394,
+      "scope": "signal_parsing",
+      "sha256": "2416e8fa5e6c07c0f5b8a725fb9fa7ea69f5200de4821bf6bdbdac632725510a",
+      "version": 1
     }
   ],
-  "updated_at": "2026-04-14T11:10:01Z"
+  "updated_at": "2026-04-20T09:59:33Z"
 }
