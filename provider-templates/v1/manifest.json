@@ -1,5 +1,5 @@
 {
-  "catalog_version": 22,
+  "catalog_version": 23,
   "schema_version": 1,
   "templates": [
     {
@@ -145,6 +145,17 @@
       "version": 1
     },
     {
+      "example_message": "XAUUSD BUY 4797/4790\n\nTP 4803\nTP 4808\nTP 4813\nTP 4818\nTP 4823\nTP 4828\nTP 4833\nTP 4838\n\nSL 4775)",
+      "file": "templates/the_xau_hunter_tm.json",
+      "id": "the_xau_hunter_tm",
+      "min_app_version": "0.8.10",
+      "name": "𝗧𝗵𝗲 𝗫𝗔𝗨 𝗛𝘂𝗻𝘁𝗲𝗿 ™",
+      "provider_chat_id": -1001551729376,
+      "scope": "signal_parsing",
+      "sha256": "9713cd8a03e2dd40fd1c85c912cd308dbfd1df7e52f3c1e49d8557e549765ab9",
+      "version": 1
+    },
+    {
       "example_message": "NAS BUY 25470 - 25510\nSL.  25420\nTP.  25580\nTP.  25700\n\nNAS100 TradingView(pepperstone)",
       "file": "templates/indices_us100_us30.json",
       "id": "indices_us100_us30",
@@ -167,5 +178,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-20T20:27:02Z"
+  "updated_at": "2026-04-24T14:22:58Z"
 }
