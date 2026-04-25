@@ -1,7 +1,18 @@
 {
-  "catalog_version": 23,
+  "catalog_version": 25,
   "schema_version": 1,
   "templates": [
+    {
+      "example_message": "XAUUSD SELL \nENTRY  4754.5-4764.5\n⚠️  SL   4768.5💰 TP   4750.5💰 TP   4747💰 TP   4700\n\n🤟 👩‍🦰 Telegram  : ATsignalfx 🔗 www . atyfx . com",
+      "file": "templates/at_signal_fx.json",
+      "id": "at_signal_fx",
+      "min_app_version": "0.8.10",
+      "name": "AT Signal FX",
+      "provider_chat_id": -1002436426330,
+      "scope": "signal_parsing",
+      "sha256": "d89d213a56273844ac9cd7ff41ecac263da42243501be78f0da3a3b4e5dda057",
+      "version": 1
+    },
     {
       "example_message": "None",
       "file": "templates/default-template.json",
@@ -123,6 +134,17 @@
       "version": 2
     },
     {
+      "example_message": "SIGNAL ALERT \n\nBUY XAUUSD 4674-4667\n\n🤑 TP1: 4679\n🤑 TP2: 4689\n🤑 TP3: 4709\n🤑 TP4: 4717\n\n🔴 SL: 4660\n\n⚠️ HIGH RISK ❗️❗️❗️",
+      "file": "templates/xantheon_vip.json",
+      "id": "xantheon_vip",
+      "min_app_version": "0.8.10",
+      "name": "XANTHEON VIP",
+      "provider_chat_id": -1003801543439,
+      "scope": "signal_parsing",
+      "sha256": "1335c132a3c5fc0ad38731151000bdc9fa72e884b950180746e2b66b8b7f9fb6",
+      "version": 1
+    },
+    {
       "example_message": "⬆️ XAUUSD 📍 4744.66\n⚖️ 0.43 ❌ 4721.34\n\n✅ TP1 4756.32 🔒\n✅ TP2 4767.98\n✅ TP3 4779.64\n✅ TP4 4791.30\n\n📳 Powered by Plugin!",
       "file": "templates/plugin-elite_market_signals.json",
       "id": "plugin-elite_market_signals",
@@ -178,5 +200,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-24T14:22:58Z"
+  "updated_at": "2026-04-25T09:56:10Z"
 }

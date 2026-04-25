@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "scope": "signal_parsing",
+  "settings": {
+    "allow_modification_signals_without_reply": true,
+    "copy_break_even": true,
+    "copy_closing_orders": true,
+    "copy_deleting_orders": true,
+    "copy_long_trades": true,
+    "copy_market_orders": true,
+    "copy_modify_orders": true,
+    "copy_new_trade": true,
+    "copy_partial_closes": true,
+    "copy_pending_activations": false,
+    "copy_pending_orders": true,
+    "copy_reopen_orders": true,
+    "copy_short_trades": true,
+    "decimal_separator": ".",
+    "default_symbol": null,
+    "entry_change_text": [],
+    "entry_names": [
+      "entry"
+    ],
+    "entry_range_short_format_enabled": false,
+    "entry_text": [
+      "<entry> <price>-<price>",
+      "<entry> <price> - <price>"
+    ],
+    "open_price_names": [],
+    "order_buy_limit_text": [
+      "buy limit"
+    ],
+    "order_buy_stop_text": [
+      "buy stop"
+    ],
+    "order_buy_text": [
+      "buy"
+    ],
+    "order_sell_limit_text": [
+      "sell limit"
+    ],
+    "order_sell_stop_text": [
+      "sell stop"
+    ],
+    "order_sell_text": [
+      "sell"
+    ],
+    "risk_lot_by_signal_text": [
+      "<lot> lots",
+      "lots: <lot>"
+    ],
+    "signal_cancel_order_text": [],
+    "signal_close_all_include_pending": true,
+    "signal_close_all_text": [],
+    "signal_close_trade_text": [
+      "fully close now",
+      "close now"
+    ],
+    "signal_do_not_include_enable": true,
+    "signal_do_not_include_mode": "any",
+    "signal_do_not_include_text": [
+      "scenarios",
+      "final word",
+      "technical breakdown",
+      "conclusion",
+      "key scenarios"
+    ],
+    "signal_modify_order_text": [],
+    "signal_must_include_enable": false,
+    "signal_must_include_mode": "any",
+    "signal_must_include_text": [],
+    "signal_new_trade_text": [
+      "<symbol> <type> entry <price>-<price>",
+      "<symbol> <type> entry <price>",
+      "<symbol> <type> entry <price> - <price>"
+    ],
+    "signal_order_activate_text": [],
+    "signal_partial_close_half_text": [],
+    "signal_partial_close_text": [],
+    "signal_reopen_trade_text": [],
+    "sl_change_text": [
+      "move <sl> to <price>"
+    ],
+    "sl_delete_text": [],
+    "sl_move_to_be_text": [],
+    "sl_names": [
+      "⚠ sl",
+      "sl"
+    ],
+    "sl_none_ignore_signal": true,
+    "sl_text": [
+      "<sl> <price>"
+    ],
+    "thousand_separators": [],
+    "tp_change_text": [],
+    "tp_delete_text": [],
+    "tp_names": [
+      "💰 tp",
+      "tp"
+    ],
+    "tp_none_ignore_signal": true,
+    "tp_text": [
+      "<tp> <price> <tp> <price> <tp> <price>",
+      "<tp> <price> <tp> <price> <tp> <price> <tp> <price> <tp> <price>",
+      "<tp> <price> <tp> <price>",
+      "<tp> <price> <tp> <price> <tp> <price> <tp> <price>",
+      "<tp> <price>"
+    ]
+  }
+}
