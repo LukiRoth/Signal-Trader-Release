@@ -1,5 +1,5 @@
 {
-  "catalog_version": 25,
+  "catalog_version": 26,
   "schema_version": 1,
   "templates": [
     {
@@ -54,6 +54,17 @@
       "provider_chat_id": -1002498334241,
       "scope": "signal_parsing",
       "sha256": "4474d6a079df07c0db7d4449cf976df7b424b6eeffc5f3b67e4df626e4d76c28",
+      "version": 1
+    },
+    {
+      "example_message": "🔔XAU/USD🔔\n\nDirection: SELL\nEntry Price: 4730.00\n\nTP1       4720.00\nTP2       4700.00\nTP3       4680.00\n\nSL          4780.00\n",
+      "file": "templates/forexero-forex_signals.json",
+      "id": "forexero-forex_signals",
+      "min_app_version": "0.8.10",
+      "name": "Forexero - Forex Signals",
+      "provider_chat_id": -1001758700941,
+      "scope": "signal_parsing",
+      "sha256": "aaedded976633f86c865f7e61b07a3af9fe0185032d9e2c3551f44f2c2fa5a3e",
       "version": 1
     },
     {
@@ -200,5 +211,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-25T09:56:10Z"
+  "updated_at": "2026-04-26T13:29:41Z"
 }
