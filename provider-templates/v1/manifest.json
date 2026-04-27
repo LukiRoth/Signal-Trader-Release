@@ -1,5 +1,5 @@
 {
-  "catalog_version": 26,
+  "catalog_version": 28,
   "schema_version": 1,
   "templates": [
     {
@@ -134,6 +134,17 @@
       "version": 2
     },
     {
+      "example_message": "SIGNAL ALERT\n\nSELL XAUUSD 4796.5\n\n🤑TP1: 4793.5\n🤑TP2: 4790.5\n🤑TP3: 4761.5\n🔴SL: 4821.5 (2500 pips)",
+      "file": "templates/tfxc_premium.json",
+      "id": "tfxc_premium",
+      "min_app_version": "0.8.10",
+      "name": "TFXC PREMIUM",
+      "provider_chat_id": -1001220837618,
+      "scope": "signal_parsing",
+      "sha256": "ce8a87ec3ae788a5bb4434327ed543e52d07fd10bf464e63e71df8b7ab3b0482",
+      "version": 1
+    },
+    {
       "example_message": "🚦live trend🚦\nich verkaufe gold (ek: 4527.88)\nhier traden: ...\nich wähle den maximalen multiplikator i️",
       "file": "templates/trading_coach.json",
       "id": "trading_coach",
@@ -143,6 +154,17 @@
       "scope": "signal_parsing",
       "sha256": "ed7ccb35ac49d265b76f392b0d4ca27baf11eb3e2455b6aadb883433b0a91163",
       "version": 2
+    },
+    {
+      "example_message": "🔴 ⬇️ 📉 SHORT  —  XAUUSDc\n━━━━━━━━━━━━━━━━━━━━━━\n🎯 Giriş  4837.657  →  TP 4835.657\n💸 Lot    0.10  •  5 poz  •  K1\n━━━━━━━━━━━━━━━━━━━━━━\n📊 Genel TP: +20.0$",
+      "file": "templates/vane_scalper.json",
+      "id": "vane_scalper",
+      "min_app_version": "0.8.10",
+      "name": "Vane Scalper",
+      "provider_chat_id": -1002694918550,
+      "scope": "signal_parsing",
+      "sha256": "c36ee7c3c12f90b5d5e5a497933ef70f24cb2c61f2014ceb76e574048f4d9274",
+      "version": 1
     },
     {
       "example_message": "SIGNAL ALERT \n\nBUY XAUUSD 4674-4667\n\n🤑 TP1: 4679\n🤑 TP2: 4689\n🤑 TP3: 4709\n🤑 TP4: 4717\n\n🔴 SL: 4660\n\n⚠️ HIGH RISK ❗️❗️❗️",
@@ -211,5 +233,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-26T13:29:41Z"
+  "updated_at": "2026-04-27T07:05:51Z"
 }
