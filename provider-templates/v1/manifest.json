@@ -1,5 +1,5 @@
 {
-  "catalog_version": 28,
+  "catalog_version": 29,
   "schema_version": 1,
   "templates": [
     {
@@ -54,6 +54,17 @@
       "provider_chat_id": -1002498334241,
       "scope": "signal_parsing",
       "sha256": "4474d6a079df07c0db7d4449cf976df7b424b6eeffc5f3b67e4df626e4d76c28",
+      "version": 1
+    },
+    {
+      "example_message": "XAUUSD BUY SIGNAL \n\n🟢 BUY NOW @ 4512\n\n🎯 TP1 : 4545\n🎯 TP2 : 4578\n\n🛑 SL : 4484\n\nBullish momentum building in gold 📈🔥\nManage risk properly and follow your trading plan.\n",
+      "file": "templates/forex_trading.json",
+      "id": "forex_trading",
+      "min_app_version": "0.8.40",
+      "name": "Forex trading",
+      "provider_chat_id": -1001597038545,
+      "scope": "signal_parsing",
+      "sha256": "349520fcc031bf47c17c08d13ec58ae00c272c53b1ab7d4b072cf12965d8d738",
       "version": 1
     },
     {
@@ -233,5 +244,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-04-27T07:05:51Z"
+  "updated_at": "2026-06-03T20:07:50Z"
 }
