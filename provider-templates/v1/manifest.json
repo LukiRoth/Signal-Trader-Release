@@ -1,5 +1,5 @@
 {
-  "catalog_version": 31,
+  "catalog_version": 32,
   "schema_version": 1,
   "templates": [
     {
@@ -120,6 +120,17 @@
       "provider_chat_id": -1002495224665,
       "scope": "signal_parsing",
       "sha256": "90fc07e1c9c0b0c2cb96023e789e4e1b82b655ace311a05dabd54a4aa81bb742",
+      "version": 1
+    },
+    {
+      "example_message": "🚨 𝐒𝐈𝐆𝐍𝐀𝐋  𝐀𝐋𝐄𝐑𝐓 🚨\n\n(XAUUSD) 𝐆𝐎𝐋𝐃  SELL  𝐒𝐈𝐆𝐍𝐀𝐋📊 \n\n🔫  Entry Point :  4165...⚡️📈\n\n  Take Profit (1) :   4155\n  Take Profit (2) :   4145\n  Take Profit (3) :   4135\n\n❌ Stop Loss (SL) :-  4175",
+      "file": "templates/gold_trader_alliance_top_trading_signals.json",
+      "id": "gold_trader_alliance_top_trading_signals",
+      "min_app_version": "0.9.0",
+      "name": "Gold Trader Alliance (Top Trading Signals)",
+      "provider_chat_id": -1003587955968,
+      "scope": "signal_parsing",
+      "sha256": "6be6104db9c633e32461e7218404a6aea1a3aa98ed41cb532106dd95ba7ff49a",
       "version": 1
     },
     {
@@ -266,5 +277,5 @@
       "version": 1
     }
   ],
-  "updated_at": "2026-06-08T15:50:47Z"
+  "updated_at": "2026-10-09T05:31:32Z"
 }
